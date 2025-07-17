@@ -2,8 +2,8 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]          # redeploy every commit to main
-  workflow_dispatch:          # manual “Run workflow” button
+    branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -15,8 +15,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      # ---------- FIX STARTS HERE ----------
       - name: Install, build & upload
-        uses: withastro/action@v4        # official Astro build helper :contentReference[oaicite:3]{index=3}
+        uses: withastro/action@v4
+        with:                       # 👈 new block
+          package-manager: pnpm@latest   # tell the action which PM/version
+          node-version: 20              # (optional) force Node LTS
+      # ----------  FIX ENDS HERE ----------
 
   deploy:
     needs: build
