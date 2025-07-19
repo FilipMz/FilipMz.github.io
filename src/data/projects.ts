@@ -9,14 +9,14 @@ export interface Project {
 export const projects: Project[] = [
   {
     title: "Test1",
-    img: "public/itemPreview.webp",
+    img: "/itemPreview.webp",
     desc: "Placeholder.",
     url: "!#",
     badge: "NEW",
   },
   {
     title: "Test2",
-    img: "public/itemPreview.webp",
+    img: "/itemPreview.webp",
     desc: "Placeholder.",
     url: "!#",
   },
