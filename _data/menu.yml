@@ -9,7 +9,15 @@ entries:
       - title: I am also interested in Mathematics, CS, Languages, and Music Production.
       - title: about me
         url: about
-      - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
+  
+  - title: stay in touch
+    entries:
+      - title: "<a href='mailto:philipmzk@gmail.com'>philipmzk [at] gmail [dot] com</a>"
+      - title: "<a href='https://www.linkedin.com/in/filip-mzyk/'>LinkedIn</a>"
+  
+  - title: Projects
+    post_list:
+
 
   - title: Blog Posts
     post_list:
@@ -18,11 +26,12 @@ entries:
       show_more_text: See archive...
       show_more_url: archive.html
 
-  - title: posts by category
+  - title: Projects
     post_list:
-      category: example2
+      category: project
+      limit: 5
       show_more: true
-      show_more_text: See more posts...
+      show_more_text: See all projects...
       show_more_url: example2-archive.html
 
   - title: rss
