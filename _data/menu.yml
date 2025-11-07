@@ -15,10 +15,6 @@ entries:
       - title: "<a href='mailto:philipmzk@gmail.com'>philipmzk [at] gmail [dot] com</a>"
       - title: "<a href='https://www.linkedin.com/in/filip-mzyk/'>LinkedIn</a>"
   
-  - title: Projects
-    post_list:
-
-
   - title: Blog Posts
     post_list:
       limit: 5
