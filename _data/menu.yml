@@ -5,8 +5,10 @@ entries:
   - title: info
     entries:
       - title: My name is Filip Mzyk.
-      - title: I am a economics graduate with interest in Time Series, Machine Learning, and the applications of economic theory in Health, Crime, and Environment.
-      - title: I am also interested in Mathematics, Languages, and Music Production.
+      - title: I am an economics graduate with interest in Time Series, Machine Learning, and the applications of economic theory in Health, Crime, and Environment.
+      - title: I am also interested in Mathematics, CS, Languages, and Music Production.
+      - title: about me
+        url: about
       - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
 
   - title: Blog Posts
@@ -31,8 +33,4 @@ entries:
       - title: with subitems
         entries:
           - title: with subsubitems
-          - title: example page
-            url: about
-  - title: PRO TIP
-    entries:
-      - title: to edit this menu, edit _data/menu.yml file
+          - title: example
