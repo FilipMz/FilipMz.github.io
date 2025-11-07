@@ -1,6 +1,6 @@
-title: Filip Mzyk's personal website # name of the site
+title: Hi! My name is Filip. # name of the site
 author: Filip Mzyk # name of site's author
-email: philip@gmail.com # email of site's author
+email: philipmzk [at] gmail [dot] com # email of site's author
 url: https://filipmz.github.io/ # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
