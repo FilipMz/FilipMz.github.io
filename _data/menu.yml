@@ -7,8 +7,8 @@ entries:
       - title: My name is Filip Mzyk.
       - title: I am an economics graduate with interest in Time Series, Machine Learning, and the applications of economic theory in Health, Crime, and Environment.
       - title: I am also interested in Mathematics, CS, Languages, and Music Production.
-      - title: about me
-        url: about
+      #- title: about me
+      #  url: about
   
   - title: stay in touch
     entries:
@@ -30,7 +30,7 @@ entries:
             url: projects/academic/project-1
       - title: Machine Learning
         entries:
-          - title: Predicting credit acceptance
+          - title: Loan approval status with ML
             url: projects/academic/project-2
       - title: Music
         entries:
