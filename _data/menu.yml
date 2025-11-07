@@ -27,14 +27,14 @@ entries:
       - title: Economics
         entries:
           - title: Crime Forecasting
-            url: project-1
+            url: projects/academic/project-1
       - title: Machine Learning
         entries:
           - title: Predicting credit acceptance
-            url: project-2
+            url: projects/academic/project-2
       - title: Music
         entries:
           - title: AITWAR
-            url: music-1
+            url: projects/music/music-1
           - title: β-KETIN
-            url: music-2
+            url: projects/music/music-2
