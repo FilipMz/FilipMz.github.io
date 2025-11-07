@@ -13,29 +13,28 @@ entries:
   - title: stay in touch
     entries:
       - title: "<a href='mailto:philipmzk@gmail.com'>philipmzk [at] gmail [dot] com</a>"
-      - title: "<a href='https://www.linkedin.com/in/filip-mzyk/'>LinkedIn</a>"
+      - title: "<a target='_blank' href='https://www.linkedin.com/in/filip-mzyk/'>LinkedIn</a>"
   
-  - title: Blog Posts
-    post_list:
-      limit: 5
-      show_more: true
-      show_more_text: See archive...
-      show_more_url: archive.html
+ # - title: Blog Posts
+  #  post_list:
+  #    limit: 5
+  #    show_more: true
+  #    show_more_text: See archive...
+  #    show_more_url: archive.html
 
   - title: Projects
-    post_list:
-      category: project
-      limit: 5
-      show_more: true
-      show_more_text: See all projects...
-      show_more_url: example2-archive.html
-
-  - title: rss
-    url: feed.xml
-  
-  - title: another list
     entries:
-      - title: with subitems
+      - title: Economics
         entries:
-          - title: with subsubitems
-          - title: example
+          - title: Crime Forecasting
+            url: project-1
+      - title: Machine Learning
+        entries:
+          - title: Predicting credit acceptance
+            url: project-2
+      - title: Music
+        entries:
+          - title: AITWAR
+            url: music-1
+          - title: β-KETIN
+            url: music-2
